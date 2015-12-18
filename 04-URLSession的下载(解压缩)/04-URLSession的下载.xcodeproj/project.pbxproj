@@ -1,0 +1,479 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18CDEA101A7229970081183D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA0F1A7229970081183D /* main.m */; };
+		18CDEA131A7229970081183D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA121A7229970081183D /* AppDelegate.m */; };
+		18CDEA161A7229970081183D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA151A7229970081183D /* ViewController.m */; };
+		18CDEA191A7229970081183D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18CDEA171A7229970081183D /* Main.storyboard */; };
+		18CDEA1B1A7229970081183D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18CDEA1A1A7229970081183D /* Images.xcassets */; };
+		18CDEA1E1A7229970081183D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18CDEA1C1A7229970081183D /* LaunchScreen.xib */; };
+		18CDEA2A1A7229970081183D /* _4_URLSession___Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA291A7229970081183D /* _4_URLSession___Tests.m */; };
+		18CDEA401A722CEE0081183D /* ioapi.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA361A722CEE0081183D /* ioapi.c */; };
+		18CDEA411A722CEE0081183D /* mztools.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA381A722CEE0081183D /* mztools.c */; };
+		18CDEA421A722CEE0081183D /* unzip.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA3A1A722CEE0081183D /* unzip.c */; };
+		18CDEA431A722CEE0081183D /* zip.c in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA3C1A722CEE0081183D /* zip.c */; };
+		18CDEA441A722CEE0081183D /* SSZipArchive.m in Sources */ = {isa = PBXBuildFile; fileRef = 18CDEA3F1A722CEE0081183D /* SSZipArchive.m */; };
+		18CDEA461A722DAA0081183D /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 18CDEA451A722DAA0081183D /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18CDEA241A7229970081183D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18CDEA021A7229970081183D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18CDEA091A7229970081183D;
+			remoteInfo = "04-URLSession的下载";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18CDEA0A1A7229970081183D /* 04-URLSession的下载.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "04-URLSession的下载.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDEA0E1A7229970081183D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDEA0F1A7229970081183D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18CDEA111A7229970081183D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18CDEA121A7229970081183D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18CDEA141A7229970081183D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18CDEA151A7229970081183D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18CDEA181A7229970081183D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18CDEA1A1A7229970081183D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18CDEA1D1A7229970081183D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		18CDEA231A7229970081183D /* 04-URLSession的下载Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "04-URLSession的下载Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		18CDEA281A7229970081183D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18CDEA291A7229970081183D /* _4_URLSession___Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_4_URLSession___Tests.m"; sourceTree = "<group>"; };
+		18CDEA351A722CEE0081183D /* crypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = crypt.h; sourceTree = "<group>"; };
+		18CDEA361A722CEE0081183D /* ioapi.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ioapi.c; sourceTree = "<group>"; };
+		18CDEA371A722CEE0081183D /* ioapi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ioapi.h; sourceTree = "<group>"; };
+		18CDEA381A722CEE0081183D /* mztools.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mztools.c; sourceTree = "<group>"; };
+		18CDEA391A722CEE0081183D /* mztools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mztools.h; sourceTree = "<group>"; };
+		18CDEA3A1A722CEE0081183D /* unzip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = unzip.c; sourceTree = "<group>"; };
+		18CDEA3B1A722CEE0081183D /* unzip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = unzip.h; sourceTree = "<group>"; };
+		18CDEA3C1A722CEE0081183D /* zip.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = zip.c; sourceTree = "<group>"; };
+		18CDEA3D1A722CEE0081183D /* zip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zip.h; sourceTree = "<group>"; };
+		18CDEA3E1A722CEE0081183D /* SSZipArchive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSZipArchive.h; sourceTree = "<group>"; };
+		18CDEA3F1A722CEE0081183D /* SSZipArchive.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSZipArchive.m; sourceTree = "<group>"; };
+		18CDEA451A722DAA0081183D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18CDEA071A7229970081183D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDEA461A722DAA0081183D /* libz.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDEA201A7229970081183D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18CDEA011A7229970081183D = {
+			isa = PBXGroup;
+			children = (
+				18CDEA451A722DAA0081183D /* libz.dylib */,
+				18CDEA0C1A7229970081183D /* 04-URLSession的下载 */,
+				18CDEA261A7229970081183D /* 04-URLSession的下载Tests */,
+				18CDEA0B1A7229970081183D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18CDEA0B1A7229970081183D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18CDEA0A1A7229970081183D /* 04-URLSession的下载.app */,
+				18CDEA231A7229970081183D /* 04-URLSession的下载Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18CDEA0C1A7229970081183D /* 04-URLSession的下载 */ = {
+			isa = PBXGroup;
+			children = (
+				18CDEA331A722CEE0081183D /* SSZipArchive */,
+				18CDEA111A7229970081183D /* AppDelegate.h */,
+				18CDEA121A7229970081183D /* AppDelegate.m */,
+				18CDEA141A7229970081183D /* ViewController.h */,
+				18CDEA151A7229970081183D /* ViewController.m */,
+				18CDEA171A7229970081183D /* Main.storyboard */,
+				18CDEA1A1A7229970081183D /* Images.xcassets */,
+				18CDEA1C1A7229970081183D /* LaunchScreen.xib */,
+				18CDEA0D1A7229970081183D /* Supporting Files */,
+			);
+			path = "04-URLSession的下载";
+			sourceTree = "<group>";
+		};
+		18CDEA0D1A7229970081183D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CDEA0E1A7229970081183D /* Info.plist */,
+				18CDEA0F1A7229970081183D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CDEA261A7229970081183D /* 04-URLSession的下载Tests */ = {
+			isa = PBXGroup;
+			children = (
+				18CDEA291A7229970081183D /* _4_URLSession___Tests.m */,
+				18CDEA271A7229970081183D /* Supporting Files */,
+			);
+			path = "04-URLSession的下载Tests";
+			sourceTree = "<group>";
+		};
+		18CDEA271A7229970081183D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18CDEA281A7229970081183D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18CDEA331A722CEE0081183D /* SSZipArchive */ = {
+			isa = PBXGroup;
+			children = (
+				18CDEA341A722CEE0081183D /* minizip */,
+				18CDEA3E1A722CEE0081183D /* SSZipArchive.h */,
+				18CDEA3F1A722CEE0081183D /* SSZipArchive.m */,
+			);
+			path = SSZipArchive;
+			sourceTree = "<group>";
+		};
+		18CDEA341A722CEE0081183D /* minizip */ = {
+			isa = PBXGroup;
+			children = (
+				18CDEA351A722CEE0081183D /* crypt.h */,
+				18CDEA361A722CEE0081183D /* ioapi.c */,
+				18CDEA371A722CEE0081183D /* ioapi.h */,
+				18CDEA381A722CEE0081183D /* mztools.c */,
+				18CDEA391A722CEE0081183D /* mztools.h */,
+				18CDEA3A1A722CEE0081183D /* unzip.c */,
+				18CDEA3B1A722CEE0081183D /* unzip.h */,
+				18CDEA3C1A722CEE0081183D /* zip.c */,
+				18CDEA3D1A722CEE0081183D /* zip.h */,
+			);
+			path = minizip;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18CDEA091A7229970081183D /* 04-URLSession的下载 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDEA2D1A7229970081183D /* Build configuration list for PBXNativeTarget "04-URLSession的下载" */;
+			buildPhases = (
+				18CDEA061A7229970081183D /* Sources */,
+				18CDEA071A7229970081183D /* Frameworks */,
+				18CDEA081A7229970081183D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "04-URLSession的下载";
+			productName = "04-URLSession的下载";
+			productReference = 18CDEA0A1A7229970081183D /* 04-URLSession的下载.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18CDEA221A7229970081183D /* 04-URLSession的下载Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18CDEA301A7229970081183D /* Build configuration list for PBXNativeTarget "04-URLSession的下载Tests" */;
+			buildPhases = (
+				18CDEA1F1A7229970081183D /* Sources */,
+				18CDEA201A7229970081183D /* Frameworks */,
+				18CDEA211A7229970081183D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18CDEA251A7229970081183D /* PBXTargetDependency */,
+			);
+			name = "04-URLSession的下载Tests";
+			productName = "04-URLSession的下载Tests";
+			productReference = 18CDEA231A7229970081183D /* 04-URLSession的下载Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18CDEA021A7229970081183D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					18CDEA091A7229970081183D = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					18CDEA221A7229970081183D = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 18CDEA091A7229970081183D;
+					};
+				};
+			};
+			buildConfigurationList = 18CDEA051A7229970081183D /* Build configuration list for PBXProject "04-URLSession的下载" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18CDEA011A7229970081183D;
+			productRefGroup = 18CDEA0B1A7229970081183D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18CDEA091A7229970081183D /* 04-URLSession的下载 */,
+				18CDEA221A7229970081183D /* 04-URLSession的下载Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18CDEA081A7229970081183D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDEA191A7229970081183D /* Main.storyboard in Resources */,
+				18CDEA1E1A7229970081183D /* LaunchScreen.xib in Resources */,
+				18CDEA1B1A7229970081183D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDEA211A7229970081183D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18CDEA061A7229970081183D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDEA421A722CEE0081183D /* unzip.c in Sources */,
+				18CDEA161A7229970081183D /* ViewController.m in Sources */,
+				18CDEA131A7229970081183D /* AppDelegate.m in Sources */,
+				18CDEA401A722CEE0081183D /* ioapi.c in Sources */,
+				18CDEA441A722CEE0081183D /* SSZipArchive.m in Sources */,
+				18CDEA431A722CEE0081183D /* zip.c in Sources */,
+				18CDEA101A7229970081183D /* main.m in Sources */,
+				18CDEA411A722CEE0081183D /* mztools.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18CDEA1F1A7229970081183D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18CDEA2A1A7229970081183D /* _4_URLSession___Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18CDEA251A7229970081183D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18CDEA091A7229970081183D /* 04-URLSession的下载 */;
+			targetProxy = 18CDEA241A7229970081183D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18CDEA171A7229970081183D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CDEA181A7229970081183D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18CDEA1C1A7229970081183D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18CDEA1D1A7229970081183D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18CDEA2B1A7229970081183D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18CDEA2C1A7229970081183D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18CDEA2E1A7229970081183D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-URLSession的下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		18CDEA2F1A7229970081183D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "04-URLSession的下载/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		18CDEA311A7229970081183D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04-URLSession的下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-URLSession的下载.app/04-URLSession的下载";
+			};
+			name = Debug;
+		};
+		18CDEA321A7229970081183D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "04-URLSession的下载Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/04-URLSession的下载.app/04-URLSession的下载";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18CDEA051A7229970081183D /* Build configuration list for PBXProject "04-URLSession的下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDEA2B1A7229970081183D /* Debug */,
+				18CDEA2C1A7229970081183D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18CDEA2D1A7229970081183D /* Build configuration list for PBXNativeTarget "04-URLSession的下载" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDEA2E1A7229970081183D /* Debug */,
+				18CDEA2F1A7229970081183D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18CDEA301A7229970081183D /* Build configuration list for PBXNativeTarget "04-URLSession的下载Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18CDEA311A7229970081183D /* Debug */,
+				18CDEA321A7229970081183D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18CDEA021A7229970081183D /* Project object */;
+}

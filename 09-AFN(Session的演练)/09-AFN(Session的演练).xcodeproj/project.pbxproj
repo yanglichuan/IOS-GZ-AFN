@@ -1,0 +1,491 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182690CC1A72577E00C85539 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 182690CB1A72577E00C85539 /* main.m */; };
+		182690CF1A72577E00C85539 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 182690CE1A72577E00C85539 /* AppDelegate.m */; };
+		182690D21A72577E00C85539 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 182690D11A72577E00C85539 /* ViewController.m */; };
+		182690D51A72577E00C85539 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182690D31A72577E00C85539 /* Main.storyboard */; };
+		182690D71A72577E00C85539 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182690D61A72577E00C85539 /* Images.xcassets */; };
+		182690DA1A72577E00C85539 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 182690D81A72577E00C85539 /* LaunchScreen.xib */; };
+		182690E61A72577E00C85539 /* _9_AFN_Session____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 182690E51A72577E00C85539 /* _9_AFN_Session____Tests.m */; };
+		182691FC1A72594B00C85539 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691EA1A72594B00C85539 /* AFHTTPRequestOperation.m */; };
+		182691FD1A72594B00C85539 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691EC1A72594B00C85539 /* AFHTTPRequestOperationManager.m */; };
+		182691FE1A72594B00C85539 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691EE1A72594B00C85539 /* AFHTTPSessionManager.m */; };
+		182691FF1A72594B00C85539 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691F11A72594B00C85539 /* AFNetworkReachabilityManager.m */; };
+		182692001A72594B00C85539 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691F31A72594B00C85539 /* AFSecurityPolicy.m */; };
+		182692011A72594B00C85539 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691F51A72594B00C85539 /* AFURLConnectionOperation.m */; };
+		182692021A72594B00C85539 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691F71A72594B00C85539 /* AFURLRequestSerialization.m */; };
+		182692031A72594B00C85539 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691F91A72594B00C85539 /* AFURLResponseSerialization.m */; };
+		182692041A72594B00C85539 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 182691FB1A72594B00C85539 /* AFURLSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182690E01A72577E00C85539 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182690BE1A72577E00C85539 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182690C51A72577E00C85539;
+			remoteInfo = "09-AFN(Session的演练)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182690C61A72577E00C85539 /* 09-AFN(Session的演练).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "09-AFN(Session的演练).app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182690CA1A72577E00C85539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182690CB1A72577E00C85539 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		182690CD1A72577E00C85539 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		182690CE1A72577E00C85539 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		182690D01A72577E00C85539 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		182690D11A72577E00C85539 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		182690D41A72577E00C85539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182690D61A72577E00C85539 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		182690D91A72577E00C85539 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		182690DF1A72577E00C85539 /* 09-AFN(Session的演练)Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "09-AFN(Session的演练)Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		182690E41A72577E00C85539 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182690E51A72577E00C85539 /* _9_AFN_Session____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_9_AFN_Session____Tests.m"; sourceTree = "<group>"; };
+		182691E91A72594B00C85539 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+		182691EA1A72594B00C85539 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		182691EB1A72594B00C85539 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		182691EC1A72594B00C85539 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		182691ED1A72594B00C85539 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		182691EE1A72594B00C85539 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		182691EF1A72594B00C85539 /* AFNetworking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworking.h; sourceTree = "<group>"; };
+		182691F01A72594B00C85539 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		182691F11A72594B00C85539 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		182691F21A72594B00C85539 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFSecurityPolicy.h; sourceTree = "<group>"; };
+		182691F31A72594B00C85539 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFSecurityPolicy.m; sourceTree = "<group>"; };
+		182691F41A72594B00C85539 /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		182691F51A72594B00C85539 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		182691F61A72594B00C85539 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		182691F71A72594B00C85539 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		182691F81A72594B00C85539 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		182691F91A72594B00C85539 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		182691FA1A72594B00C85539 /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
+		182691FB1A72594B00C85539 /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182690C31A72577E00C85539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182690DC1A72577E00C85539 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182690BD1A72577E00C85539 = {
+			isa = PBXGroup;
+			children = (
+				182690C81A72577E00C85539 /* 09-AFN(Session的演练) */,
+				182690E21A72577E00C85539 /* 09-AFN(Session的演练)Tests */,
+				182690C71A72577E00C85539 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182690C71A72577E00C85539 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182690C61A72577E00C85539 /* 09-AFN(Session的演练).app */,
+				182690DF1A72577E00C85539 /* 09-AFN(Session的演练)Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182690C81A72577E00C85539 /* 09-AFN(Session的演练) */ = {
+			isa = PBXGroup;
+			children = (
+				182691E81A72594B00C85539 /* AFNetworking */,
+				182690CD1A72577E00C85539 /* AppDelegate.h */,
+				182690CE1A72577E00C85539 /* AppDelegate.m */,
+				182690D01A72577E00C85539 /* ViewController.h */,
+				182690D11A72577E00C85539 /* ViewController.m */,
+				182690D31A72577E00C85539 /* Main.storyboard */,
+				182690D61A72577E00C85539 /* Images.xcassets */,
+				182690D81A72577E00C85539 /* LaunchScreen.xib */,
+				182690C91A72577E00C85539 /* Supporting Files */,
+			);
+			path = "09-AFN(Session的演练)";
+			sourceTree = "<group>";
+		};
+		182690C91A72577E00C85539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182690CA1A72577E00C85539 /* Info.plist */,
+				182690CB1A72577E00C85539 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182690E21A72577E00C85539 /* 09-AFN(Session的演练)Tests */ = {
+			isa = PBXGroup;
+			children = (
+				182690E51A72577E00C85539 /* _9_AFN_Session____Tests.m */,
+				182690E31A72577E00C85539 /* Supporting Files */,
+			);
+			path = "09-AFN(Session的演练)Tests";
+			sourceTree = "<group>";
+		};
+		182690E31A72577E00C85539 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				182690E41A72577E00C85539 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		182691E81A72594B00C85539 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				182691E91A72594B00C85539 /* AFHTTPRequestOperation.h */,
+				182691EA1A72594B00C85539 /* AFHTTPRequestOperation.m */,
+				182691EB1A72594B00C85539 /* AFHTTPRequestOperationManager.h */,
+				182691EC1A72594B00C85539 /* AFHTTPRequestOperationManager.m */,
+				182691ED1A72594B00C85539 /* AFHTTPSessionManager.h */,
+				182691EE1A72594B00C85539 /* AFHTTPSessionManager.m */,
+				182691EF1A72594B00C85539 /* AFNetworking.h */,
+				182691F01A72594B00C85539 /* AFNetworkReachabilityManager.h */,
+				182691F11A72594B00C85539 /* AFNetworkReachabilityManager.m */,
+				182691F21A72594B00C85539 /* AFSecurityPolicy.h */,
+				182691F31A72594B00C85539 /* AFSecurityPolicy.m */,
+				182691F41A72594B00C85539 /* AFURLConnectionOperation.h */,
+				182691F51A72594B00C85539 /* AFURLConnectionOperation.m */,
+				182691F61A72594B00C85539 /* AFURLRequestSerialization.h */,
+				182691F71A72594B00C85539 /* AFURLRequestSerialization.m */,
+				182691F81A72594B00C85539 /* AFURLResponseSerialization.h */,
+				182691F91A72594B00C85539 /* AFURLResponseSerialization.m */,
+				182691FA1A72594B00C85539 /* AFURLSessionManager.h */,
+				182691FB1A72594B00C85539 /* AFURLSessionManager.m */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182690C51A72577E00C85539 /* 09-AFN(Session的演练) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182690E91A72577E00C85539 /* Build configuration list for PBXNativeTarget "09-AFN(Session的演练)" */;
+			buildPhases = (
+				182690C21A72577E00C85539 /* Sources */,
+				182690C31A72577E00C85539 /* Frameworks */,
+				182690C41A72577E00C85539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "09-AFN(Session的演练)";
+			productName = "09-AFN(Session的演练)";
+			productReference = 182690C61A72577E00C85539 /* 09-AFN(Session的演练).app */;
+			productType = "com.apple.product-type.application";
+		};
+		182690DE1A72577E00C85539 /* 09-AFN(Session的演练)Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182690EC1A72577E00C85539 /* Build configuration list for PBXNativeTarget "09-AFN(Session的演练)Tests" */;
+			buildPhases = (
+				182690DB1A72577E00C85539 /* Sources */,
+				182690DC1A72577E00C85539 /* Frameworks */,
+				182690DD1A72577E00C85539 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182690E11A72577E00C85539 /* PBXTargetDependency */,
+			);
+			name = "09-AFN(Session的演练)Tests";
+			productName = "09-AFN(Session的演练)Tests";
+			productReference = 182690DF1A72577E00C85539 /* 09-AFN(Session的演练)Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182690BE1A72577E00C85539 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = apple;
+				TargetAttributes = {
+					182690C51A72577E00C85539 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					182690DE1A72577E00C85539 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 182690C51A72577E00C85539;
+					};
+				};
+			};
+			buildConfigurationList = 182690C11A72577E00C85539 /* Build configuration list for PBXProject "09-AFN(Session的演练)" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182690BD1A72577E00C85539;
+			productRefGroup = 182690C71A72577E00C85539 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182690C51A72577E00C85539 /* 09-AFN(Session的演练) */,
+				182690DE1A72577E00C85539 /* 09-AFN(Session的演练)Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182690C41A72577E00C85539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182690D51A72577E00C85539 /* Main.storyboard in Resources */,
+				182690DA1A72577E00C85539 /* LaunchScreen.xib in Resources */,
+				182690D71A72577E00C85539 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182690DD1A72577E00C85539 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182690C21A72577E00C85539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182691FC1A72594B00C85539 /* AFHTTPRequestOperation.m in Sources */,
+				182690D21A72577E00C85539 /* ViewController.m in Sources */,
+				182691FD1A72594B00C85539 /* AFHTTPRequestOperationManager.m in Sources */,
+				182691FF1A72594B00C85539 /* AFNetworkReachabilityManager.m in Sources */,
+				182692031A72594B00C85539 /* AFURLResponseSerialization.m in Sources */,
+				182692011A72594B00C85539 /* AFURLConnectionOperation.m in Sources */,
+				182692001A72594B00C85539 /* AFSecurityPolicy.m in Sources */,
+				182691FE1A72594B00C85539 /* AFHTTPSessionManager.m in Sources */,
+				182692021A72594B00C85539 /* AFURLRequestSerialization.m in Sources */,
+				182692041A72594B00C85539 /* AFURLSessionManager.m in Sources */,
+				182690CF1A72577E00C85539 /* AppDelegate.m in Sources */,
+				182690CC1A72577E00C85539 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182690DB1A72577E00C85539 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182690E61A72577E00C85539 /* _9_AFN_Session____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182690E11A72577E00C85539 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182690C51A72577E00C85539 /* 09-AFN(Session的演练) */;
+			targetProxy = 182690E01A72577E00C85539 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182690D31A72577E00C85539 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182690D41A72577E00C85539 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182690D81A72577E00C85539 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182690D91A72577E00C85539 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182690E71A72577E00C85539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		182690E81A72577E00C85539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182690EA1A72577E00C85539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "09-AFN(Session的演练)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		182690EB1A72577E00C85539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "09-AFN(Session的演练)/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		182690ED1A72577E00C85539 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "09-AFN(Session的演练)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/09-AFN(Session的演练).app/09-AFN(Session的演练)";
+			};
+			name = Debug;
+		};
+		182690EE1A72577E00C85539 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "09-AFN(Session的演练)Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/09-AFN(Session的演练).app/09-AFN(Session的演练)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182690C11A72577E00C85539 /* Build configuration list for PBXProject "09-AFN(Session的演练)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182690E71A72577E00C85539 /* Debug */,
+				182690E81A72577E00C85539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182690E91A72577E00C85539 /* Build configuration list for PBXNativeTarget "09-AFN(Session的演练)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182690EA1A72577E00C85539 /* Debug */,
+				182690EB1A72577E00C85539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		182690EC1A72577E00C85539 /* Build configuration list for PBXNativeTarget "09-AFN(Session的演练)Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182690ED1A72577E00C85539 /* Debug */,
+				182690EE1A72577E00C85539 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 182690BE1A72577E00C85539 /* Project object */;
+}
